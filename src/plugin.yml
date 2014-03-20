@@ -1,17 +1,16 @@
 name: PrettyLights
 main: com.xorinc.prettylights.PrettyLightsPlugin
-version: 0.0.1
+version: 1.0.0
 author: dr_Xor
 website: http://github.com/drXor
 description: >
     Spigot plugin that generates cosmetic particles around players
-#softdepend: [VanishNoPacket]
 commands: 
   prettylights:
     description: Main plugin command
-    aliases: [particles]
+    aliases: [particles, particle]
     permission: prettylights.use
-    usage: /<command> [effect|reload|off]
+    usage: /<command> [effect|off|reload]
 
 permissions:
   prettylights.use:
